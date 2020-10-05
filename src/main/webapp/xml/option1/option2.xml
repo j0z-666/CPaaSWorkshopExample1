@@ -1,0 +1,7 @@
+<Response>
+    <Mms from="{{To}}" to="{{From}}" mediaUrl="http://68.183.215.34/CPaaSXML/AVAYA_CALA.JPG">ApiVersion: {{ApiVersion}}, CallSid: {{CallSid}}, Direction: {{Direction}}, CallerName:{{CallerName}}</Mms>
+    <!-- Fin del flujo -->
+    <Gather method="GET" numDigits="1" finishOnKey="#" action="http://68.183.215.34/CPaaSXML/LastRedirect.xml">
+      <Say voice="woman" language="es-us">Presiona UNO para volver al menu principal, Presiona DOS para terminar la llamada</Say>
+    </Gather>
+</Response>

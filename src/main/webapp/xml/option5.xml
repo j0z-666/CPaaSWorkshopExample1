@@ -1,0 +1,4 @@
+<Response>
+    <!-- Opcion seis, regresar al menu principal -->
+    <Redirect method="GET">https://cloud.zang.io/data/inboundxml/cc8d382c6d566496d67b7cca0ae77cbdb6e57e98</Redirect>
+</Response>
