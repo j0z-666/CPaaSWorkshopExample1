@@ -1,3 +1,4 @@
 <Response>
+    <!-- Cambios de prueba -->
     <Redirect method="GET">https://cpaasworkshopexample1.herokuapp.com/xml/option{{Digits}}.xml</Redirect>
 </Response>
