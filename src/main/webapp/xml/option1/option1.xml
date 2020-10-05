@@ -2,7 +2,7 @@
     <Say voice="woman" language="es-us">Recibiras un SMS con los datos de esta llamada.</Say>
     <Sms from="{{To}}" to="{{From}}">ApiVersion: {{ApiVersion}}, CallSid: {{CallSid}}, Direction: {{Direction}}, CallerName:{{CallerName}}</Sms>
     <!-- Fin del flujo -->
-    <Gather method="GET" numDigits="1" finishOnKey="#" action="http://68.183.215.34/CPaaSXML/LastRedirect.xml">
+    <Gather method="GET" numDigits="1" finishOnKey="#" action="https://cpaasworkshopexample1.herokuapp.com/xml/LastRedirect.xml">
       <Say voice="woman" language="es-us">Presiona UNO para volver al menu principal, Presiona DOS para terminar la llamada</Say>
     </Gather>
 </Response>
